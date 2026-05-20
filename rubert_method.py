@@ -9,7 +9,7 @@ def analyze_with_rubert(text):
     hf_token = os.environ.get("HF_TOKEN")
     if not hf_token:
         print("❌ HF_TOKEN не задан в переменных окружения")
-        return fallback_result(text, "No HF_TOKEN")
+        return fallback_result(text, "No HF_TOKEN") 
 
     headers = {
         "Authorization": f"Bearer {hf_token}",
