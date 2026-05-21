@@ -1,10 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 flask
-pandas
-scikit-learn
-joblib
-numpy
-werkzeug
 gunicorn
-transformers
-torch
+pandas
+joblib
 requests
+
+scikit-learn==1.8.0
+
+torch==2.3.1+cpu
+transformers==4.44.2
+tokenizers
+safetensors
