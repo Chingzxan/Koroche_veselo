@@ -59,15 +59,25 @@
 
 # Какие зависимости нужны
 1.--extra-index-url https://download.pytorch.org/whl/cpu
+
 2.flask
+
 3.gunicorn
+
 4.pandas
+
 5.joblib
+
 6.requests
+
 7.scikit-learn==1.8.0
+
 8.torch==2.3.1+cpu
+
 9.transformers==4.44.2
+
 10.tokenizers
+
 11.safetensors
 
 ---
