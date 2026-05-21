@@ -87,12 +87,8 @@
   
   	1. Установить зависимости:  pip install -r requirements.txt
   
-  	2. Обучить модель логистической регрессии:
-		python train_sentiment_model.py --csv train_reviews.csv
-  
-  	3. Запустить веб-приложение:  python app.py 
+  	2. Запустить веб-приложение:  python app.py 
    
-	4. Для быстрого запуска просто: python app.py
 
 2.Linux:
 	
