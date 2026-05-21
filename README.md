@@ -85,14 +85,14 @@
 
 1.Windows :
   
-  1.Установить зависимости  ```pip install -r requirements.txt```
+  	1. Установить зависимости  ```pip install -r requirements.txt```
   
-  2.Обучить модель логистической регрессии :
+  	2. Обучить модель логистической регрессии :
 		```python train_sentiment_model.py --csv train_reviews.csv```
   
-  3.Запустить веб-приложение : ```python app.py ```
+  	3. Запустить веб-приложение : ```python app.py ```
    
-  4.Для быстрого запуска просто ```python app.py```
+	4. Для быстрого запуска просто ```python app.py```
 
 2.Linux:
 	
@@ -101,10 +101,10 @@
 	2. ./run_linux.sh
 
 3.macOS:
-	1.chmod +x run_mac.command
-	2../run_mac.command
-
-
+	
+	1. chmod +x run_mac.command
+	
+	2. ./run_mac.command
 
 ---
 
